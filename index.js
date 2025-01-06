@@ -935,133 +935,85 @@ for (let i = starting; i <= ending; i++) {
 
 
 
+// Q no 05
+// let fruits = ["Apple", "Banana", "Mango", "Orange", "Strawberry"]
+// for(let i = 0; i<=fruits.length; i++){
+//     console.log(fruits[i]);
+//     console.log("Elements at index " + i + " is " + fruits[i]);
 
+// }
 
 
+// 6. Generate the following series in your browser. See
+// example output.
+// a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+// b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+// c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
+// d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19
+// e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k 
 
 
 
+// for(i=1; i<=15; i++){
+//     console.log(i)
+// }
 
+// for (let i = 10; i >= 1; i--) {
+//     console.log(i);
+//   }
 
+// for (let i = 0; i < 20; i=i+2) {
+//     console.log(i);
 
+// }
 
+// for (let i = 0; i < 20; i++) {
+//     console.log(i=i+1);
 
+// }
 
+// for (let i = 2; i <= 20; i=i+2) {
+//     console.log(i + "k");
 
+// }
 
 
+// 10. Write a program to print multiples of 5 ranging 1 to  100.
 
+// for(i=5; i<=100; i=i+5){
+//     console.log(i)
+// }
 
 
 
+// 8. Write a program to identify the largest number in the
+// given array.
+// let A = [24, 53, 78, 91, 12];
+// let largest = A[0];
+// for (let i = 1; i < A.length; i++) {
+//   if (A[i] > largest) {
+//     largest = A[i];
+//   }
+// }
+// console.log("The largest number in the array is " + largest);
 
 
+//  Q n0 9  Write a program to identify the smallest number in the given array.
+// let A = [24, 53, 78, 91, 12];
+// let smallestNumber = A[0];
+// for (let i = 1; i < A.length; i++) {
+//     if (A[i] < smallestNumber) {
+//         smallestNumber = A[i];
+//     }
+// }
+// console.log("The smallest number in the array is: " + smallestNumber);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// let A = ["cake", "apple pie", "cookie", "chips", "patties"];
+// let user_input = prompt("Welcome to ABC Bakery. What do you want to order?");
+// let item = user_input.toLowerCase();
+// let index = A.indexOf(item);
+// if (index !== -1) {
+//     alert(item + " is available at index " + index + " in our bakery.");
+// } else {
+//     alert("We are sorry. " + item + " is not available in our bakery.");
+// }
